@@ -29,6 +29,11 @@ header > h1 {
     font-size: 3em;
 }
 
+header > p {
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
 /* Main Content */
 
 main {
