@@ -1,0 +1,107 @@
+/* General */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+    background-color: white;
+}
+
+/* Header */
+
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    top: 0;
+    background-color: rgb(17, 22, 39);
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+}
+
+header > h1 {
+    margin: auto;
+    font-size: 3em;
+}
+
+header > p {
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+/* Main Content */
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    height: 80vh;
+    background-color: rgb(25, 31, 49);
+    position: static;
+}
+
+main > #games {
+    background-image: url("../Images/Minecraft.png");
+    background-position-y: -150px;
+}
+main > #consoles {
+    background-image: url("../Images/PS4.png");
+    background-position-x: -800px;
+    background-position-y: -130px;
+}
+main > #timeline {
+    background-image: url("../Images/History.jpg");
+}
+
+main > a {
+    height: 65vh;
+    width: 25vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 20px;
+    background-color: #11192b;
+    opacity: 70%;
+    transition: 100ms;
+    text-align: center;
+    text-decoration: none;
+}
+
+main > a > div {
+    position: relative;
+    bottom: -45%;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    font-size: 5em;
+}
+
+main > a:hover {
+    opacity: 100%;
+    width: 27vw;
+}
+
+main > a:active {
+    height: 67vh;
+    width: 29vw;
+}
+
+/* Footer */
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    bottom: 0;
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(18, 22, 32);
+    color: white;
+}
+
+footer > h6 {
+    margin: auto;
+}
