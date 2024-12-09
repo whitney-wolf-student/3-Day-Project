@@ -1,0 +1,78 @@
+header {
+    background-color: rgba(64, 10, 98, 255);
+    border: 10px rgba(255, 208, 84, 255);
+    border-style: groove;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'steelfont';
+    color: rgba(255, 208, 84, 255);
+}
+
+body {
+
+    background-image: url(../resources/images.png);
+    background-repeat: repeat;
+    
+    margin: 0;
+
+}
+
+@font-face {
+    font-family: "steelfont";
+    src: url("resources/SteelworksVintageDemo-P5wE.otf");
+}
+
+.content {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    padding: 50px;
+
+}
+
+.pc {
+    background-color: rgba(64, 10, 98, 255);
+    border: 10px rgba(255, 208, 84, 255);
+    border-style: groove;
+    text-align: center;
+    width: 90%;
+    font-size: 200%;
+    font-family: 'steelfont';
+    margin-left: 5%;
+    margin-bottom: 15px;
+    color: rgba(255, 208, 84, 255);
+    border-radius: 40px;
+
+}
+
+.title {
+    font-size: 45px;
+}
+
+.picture {
+    width: 45%;
+    border: 10px solid rgba(255, 208, 84, 255);
+    ;
+    border-radius: 40px;
+}
+
+.imgcontainer {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    height: 400px;
+    margin-bottom: -10px;
+}
+
+.mainpageimg {
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    margin-top: 258px;
+}
+
+.imgcontainer:hover .mainpageimg {
+    transform: translateY(-250px);
+    z-index: 9999;
+}
