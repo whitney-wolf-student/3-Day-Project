@@ -47,16 +47,16 @@ main {
 }
 
 main > #games {
-    background-image: url("../Images/Minecraft.png");
+    background-image: url("../images/minecraftconsoleart.png");
     background-position-y: -150px;
 }
 main > #consoles {
-    background-image: url("../Images/PS4.png");
+    background-image: url("../images/ps4main.png");
     background-position-x: -800px;
     background-position-y: -130px;
 }
 main > #timeline {
-    background-image: url("../Images/History.jpg");
+    background-image: url("../images/gamecontrollers.jpg");
 }
 
 main > a {

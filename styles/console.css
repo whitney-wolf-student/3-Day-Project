@@ -10,7 +10,7 @@ header {
 
 body {
 
-    background-image: url(../resources/images.png);
+    background-image: url(../images/images.png);
     background-repeat: repeat;
 
     margin: 0;
@@ -19,7 +19,7 @@ body {
 
 @font-face {
     font-family: "steelfont";
-    src: url("resources/SteelworksVintageDemo-P5wE.otf");
+    src: url("../fonts/SteelworksVintageDemo-P5wE.otf");
 }
 
 .content {
