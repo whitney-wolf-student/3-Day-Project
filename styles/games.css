@@ -2,6 +2,7 @@ body {
     background-image: url("../images/backgroundg.png");
     font-family: 'Courier New', Arial;
     text-align: center;
+    margin : 0;
 }
 header {
     background-color: #050d23;
@@ -61,4 +62,25 @@ img {
     border-style: solid;
     border-color: #d71db0;
     border-width: 1px;
+}
+.imgcontainer {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    height: 500px;
+    margin-bottom: -20px;
+    margin-top: -100px;
+    z-index: 9999;
+}
+
+.mainpageimg {
+    transition: transform 0.3s ease-in-out;
+    width: 100%;
+    margin-top: 360px;
+    border: #050d23 solid 1px;
+}
+
+.imgcontainer:hover .mainpageimg {
+    transform: translateY(-250px);
+    z-index: 9999;
 }
