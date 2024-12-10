@@ -12,7 +12,7 @@ body {
 
     background-image: url(../resources/images.png);
     background-repeat: repeat;
-    
+
     margin: 0;
 
 }
@@ -62,17 +62,19 @@ body {
     display: inline-block;
     overflow: hidden;
     position: relative;
-    height: 400px;
+    height: 500px;
     margin-bottom: -10px;
+    margin-top: -100px;
+    z-index: 9999;
 }
 
 .mainpageimg {
     transition: transform 0.3s ease-in-out;
     width: 100%;
-    margin-top: 258px;
+    margin-top: 360px;
 }
 
 .imgcontainer:hover .mainpageimg {
-    transform: translateY(-250px);
+    transform: translateY(-300px);
     z-index: 9999;
 }
